@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: 主页
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
@@ -18,8 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+欢迎来到密码系统安全实验室！实验室隶属于上海交通大学电子信息与电气工程学院。
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**研究领域**： 我们的研究领域覆盖了密码基础理论、后量子密码技术、抗旁路攻击的安全密码算法、多样化的应用密码算法，以及区块链安全与隐私保护。实验室通过前沿的密码学研究，加强网络世界的安全防线，解决国家和业界的网络安全问题。
+实验室在国际顶级学术会议发表多篇论文，研究成果在密码学界以及行业有着广泛的影响力。实验室与国内外众多顶尖研究机构和企业保持紧密合作，为研究人员提供了丰富的交流和合作平台。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+实验室拥有一流的研究设施和条件，创造了一个宽松自由的学术氛围，鼓励创新和深入探索，注重学术与实践的结合，推动研究成果的实际应用。
