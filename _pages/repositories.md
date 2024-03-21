@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: 开源库
-description: 密码学领域开源库
+title: 密码学领域开源库
+description: 
 nav: true
 nav_order: 4
 ---
