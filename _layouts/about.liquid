@@ -43,7 +43,7 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">动态</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -73,4 +73,19 @@ layout: default
       </div>
     {% endif %}
   </article>
+
+  <div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sjtu.png" class="img-fluid rounded" height="350px" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/school_of_electric.png" class="img-fluid rounded" height="350px" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sqz.png" class="img-fluid rounded" height="350px" %}
+    </div>
+</div>
+
+
+
 </div>
