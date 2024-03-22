@@ -20,6 +20,10 @@ layout: default
     justify-content: space-between;
 }
 
+.image-col {
+  padding: 0 10px;
+}
+
 .post-title {
     font-weight: bold;
 }
@@ -50,7 +54,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.8}}px, (min-width: 576px)
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 10 | times: 0.8}}px, (min-width: 576px)
       80vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
@@ -99,28 +103,15 @@ layout: default
     {% endif %}
 
     <div class="row mt-3 justify-content-center"> 
-      <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+      <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center image-col">
           {% include logo.liquid loading="eager" path="assets/img/sjtu1.jpg" class="img-fluid rounded" height="300px" max-height="150px"%}
       </div>
-      <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+      <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center image-col">
           {% include logo.liquid loading="eager" path="assets/img/school_of_electric1.jpg" class="img-fluid rounded" height="300px" max-height="150px"%}
       </div>
-      <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+      <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center image-col">
           {% include logo.liquid loading="eager" path="assets/img/sqz1.jpg" class="img-fluid rounded" height="300px" max-height="150px"%}
       </div>
-
-      {% comment %} <div class="image-row">
-        <div class="image-container">
-          <img src="{{ '/assets/image/sjtu.jpg' | relative_url }}" alt="Image 1" class="responsive-image">
-        </div>
-        <div class="image-container">
-          <img src="{{ '/assets/image/school_of_electric1.jpg' | relative_url }}" alt="Image 2" class="responsive-image">
-        </div>
-        <div class="image-container">
-          <img src="{{ '/assets/image/sqz1.jpg' | relative_url }}" alt="Image 3" class="responsive-image">
-        </div>
-      </div> {% endcomment %}
-
 
   </article>
 
