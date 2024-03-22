@@ -3,8 +3,6 @@
 #   - alshedivat
 
 github_repos:
-  - romangol/yogsm
-  - HaveYouTall/Mobile-MSM-open
   - open-quantum-safe/liboqs
   - pq-crystals/dilithium
   - pq-crystals/kyber
