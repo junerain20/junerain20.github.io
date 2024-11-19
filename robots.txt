@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://junerain20.github.io//sitemap.xml
+Sitemap: https://crypto.sjtu.edu.cn//sitemap.xml
