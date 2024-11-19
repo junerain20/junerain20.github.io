@@ -37,6 +37,17 @@ nav_order: 4
 {% endif %}
 {% endif %}
 
+<!-- ## Gitee Repositories
+
+{% if site.data.repositories.gitee_repos %}
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.gitee_repos %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %} -->
+
 ## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}

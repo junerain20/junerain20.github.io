@@ -2,6 +2,9 @@
 #   - torvalds
 #   - alshedivat
 
+gitee_repos:
+  - pqcrypto/pqmagic
+
 github_repos:
   - open-quantum-safe/liboqs
   - pq-crystals/dilithium

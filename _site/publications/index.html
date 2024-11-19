@@ -1,0 +1,4607 @@
+<!DOCTYPE html>
+<html lang="cn">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      论文著作 | 密码系统安全实验室
+    
+  
+</title>
+<meta name="author" content=" ">
+<meta name="description" content="近期发表论文节选，按时间顺序倒序排列。">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<!-- <link rel="stylesheet" href="/assets/css/mdb.min.css?62a43d1430ddb46fc4886f9d0e3b49b8"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+<!-- Bootstrap Table -->
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="http://localhost:4000/publications/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?a5ca4084d3b81624bcfa01156dae2b8e"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+<!-- GeoJSON support via Leaflet -->
+
+
+<!-- diff2html -->
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          密码系统安全实验室
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">主页
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/blog/">博客
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item active">
+                  
+                  <a class="nav-link" href="/publications/">论文著作
+                    
+                      <span class="sr-only">(current)</span>
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/projects/">项目
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/repositories/">开源库
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/people/">成员
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">论文著作</h1>
+    <p class="post-description">近期发表论文节选，按时间顺序倒序排列。</p>
+  </header>
+
+  <article>
+    <!-- _pages/publications.md -->
+<div class="publications">
+
+<h2 class="bibliography">2024</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">EUROCRYPT 2024</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2022/712" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">The Hardness of LPN over Any Integer Ring and Field for PCG Applications</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Hanlin
+            Liu
+          , Xiao
+            Wang
+          , Kang
+            Yang
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2022/712" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/The%20Hardness%20of%20LPN%20over%20Any%20Integer%20Ring.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">USENIX Security 2024</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2023/964" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Lightweight Authentication of Web Data via Garble-Then-Prove</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Xiang
+            Xie
+          , Kang
+            Yang
+          , Xiao
+            Wang
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2023/964" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Lightweight%20Authentication.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">USENIX Security 2024</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="liuscalable" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Scalable Multi-Party Computation Protocols for Machine Learning in the Honest-Majority Setting</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Fengrun
+            Liu
+          , Xiang
+            Xie
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em></em>
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+      
+        
+          <a href="/assets/pdf/Scalable%20Multi-Party.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">liuscalable</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Scalable Multi-Party Computation Protocols for Machine Learning in the Honest-Majority Setting}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Fengrun and Xie, Xiang and Yu, Yu}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2023</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ASIACRYPT 2023</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2023/1397" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Algebraic Attacks on Round-Reduced RAIN and Full AIM-III</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Kaiyi
+            Zhang
+          , Qingju
+            Wang
+          , Yu
+            Yu
+          , Chun
+            Guo
+          , and Hongrui
+            Cui
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://eprint.iacr.org/2023/1397" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Algebraic%20Attacks%20on%20Round-Reduced%20RAIN.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">cryptoeprint:2023/1397</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhang, Kaiyi and Wang, Qingju and Yu, Yu and Guo, Chun and Cui, Hongrui}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Algebraic Attacks on Round-Reduced RAIN and Full AIM-III}</span><span class="p">,</span>
+  <span class="na">howpublished</span> <span class="p">=</span> <span class="s">{Cryptology ePrint Archive, Paper 2023/1397}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://eprint.iacr.org/2023/1397}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">TCC 2023</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2023/1355" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Security Proofs for Key-Alternating Ciphers with Non-Independent Round Permutations</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Liqing
+            Yu
+          , Yusai
+            Wu
+          , Yu
+            Yu
+          , Zhenfu
+            Cao
+          , and Xiaolei
+            Dong
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://eprint.iacr.org/2023/1355" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Security%20Proofs%20for%20Key-Alternating.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">cryptoeprint:2023/1355</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yu, Liqing and Wu, Yusai and Yu, Yu and Cao, Zhenfu and Dong, Xiaolei}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Security Proofs for Key-Alternating Ciphers with Non-Independent Round Permutations}</span><span class="p">,</span>
+  <span class="na">howpublished</span> <span class="p">=</span> <span class="s">{Cryptology ePrint Archive, Paper 2023/1355}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://eprint.iacr.org/2023/1355}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CRYPTO 2023</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2023/850" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Revisiting the Constant-sum Winternitz One-time Signature with Applications to SPHINCS+ and XMSS</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Kaiyi
+            Zhang
+          , Hongrui
+            Cui
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://eprint.iacr.org/2023/850" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Revisiting%20the%20Constant-sum%20Winternitz%20One-time.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">cryptoeprint:2023/850</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhang, Kaiyi and Cui, Hongrui and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Revisiting the Constant-sum Winternitz One-time Signature with Applications to SPHINCS+ and XMSS}</span><span class="p">,</span>
+  <span class="na">howpublished</span> <span class="p">=</span> <span class="s">{Cryptology ePrint Archive, Paper 2023/850}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://eprint.iacr.org/2023/850}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">EUROCRYPT 2023</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2023/278" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Actively Secure Half-Gates with Minimum Overhead under Duplex Networks</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Hongrui
+            Cui
+          , Xiao
+            Wang
+          , Kang
+            Yang
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://eprint.iacr.org/2023/278" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Actively%20Secure%20Half-Gates%20with%20Minimum%20Overhead.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">cryptoeprint:2023/278</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cui, Hongrui and Wang, Xiao and Yang, Kang and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Actively Secure Half-Gates with Minimum Overhead under Duplex Networks}</span><span class="p">,</span>
+  <span class="na">howpublished</span> <span class="p">=</span> <span class="s">{Cryptology ePrint Archive, Paper 2023/278}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/978-3-031-30617-4_2}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://eprint.iacr.org/2023/278}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">IEEE S&amp;P 2023</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10179449" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Bicoptor: Two-round Secure Three-party Non-linear Computation without Preprocessing for Privacy-preserving Machine Learning</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      L.
+            Zhou
+          , Z.
+            Wang
+          , H.
+            Cui
+          , Q.
+            Song
+          , and Y.
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In 2023 IEEE Symposium on Security and Privacy (SP)</em> ,  May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.10179449" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Bicoptor.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>The overhead of non-linear functions dominates the performance of the secure multiparty computation (MPC) based privacy-preserving machine learning (PPML). This work introduces a family of novel secure three-party computation (3PC) protocols, Bicoptor, which improve the efficiency of evaluating non-linear functions. The basis of Bicoptor is a new sign determination protocol, which relies on a clever use of the truncation protocol proposed in SecureML (S&amp;P 2017). Our 3PC sign determination protocol only requires two communication rounds, and does not involve any preprocessing. Such sign determination protocol is well-suited for computing non-linear functions in PPML, e.g. the activation function ReLU, Maxpool, and their variants. We develop suitable protocols for these non-linear functions, which form a family of GPU-friendly protocols, Bicoptor. All Bicoptor protocols only require two communication rounds without preprocessing. We evaluate Bicoptor under a 3-party LAN network over a public cloud, and achieve more than 370,000 DReLU/ReLU or 41,000 Maxpool (find the maximum value of nine inputs) operations per second. Under the same settings and environment, our ReLU protocol has a one or even two orders of magnitude improvement to the state-of-the-art works, Falcon (PETS 2021) or Edabits (CRYPTO 2020), respectively without batch processing.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10179449</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhou, L. and Wang, Z. and Cui, H. and Song, Q. and Yu, Y.}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{2023 IEEE Symposium on Security and Privacy (SP)}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Bicoptor: Two-round Secure Three-party Non-linear Computation without Preprocessing for Privacy-preserving Machine Learning}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">issn</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{534-551}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{privacy;cloud computing;protocols;batch production systems;machine learning;throughput;computational efficiency}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/SP46215.2023.10179449}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.10179449}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE Computer Society}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Los Alamitos, CA, USA}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">may</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2022</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ASIACRYPT 2022</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2021/1343" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">A Non-heuristic Approach to Time-space Tradeoffs and Optimizations for BKW</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Hanlin
+            Liu
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2021/1343" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/A%20Non-heuristic%20Approach%20to%20Time-space.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ASIACRYPT 2022</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2022/1163" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">A Third is All You Need: Extended Partial Key Exposure Attack on CRT-RSA with Additive Exponent Blinding</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yuanyuan
+            Zhou
+          , Joop
+            Pol
+          , Yu
+            Yu
+          , and François-Xavier
+            Standaert
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://eprint.iacr.org/2022/1163" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/A%20Third%20is%20All%20You%20Need.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">cryptoeprint:2022/1163</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhou, Yuanyuan and van de Pol, Joop and Yu, Yu and Standaert, François-Xavier}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{A Third is All You Need: Extended Partial Key Exposure Attack on CRT-RSA with Additive Exponent Blinding}</span><span class="p">,</span>
+  <span class="na">howpublished</span> <span class="p">=</span> <span class="s">{Cryptology ePrint Archive, Paper 2022/1163}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://eprint.iacr.org/2022/1163}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">EUROCRYPT 2022</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2021/1684" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Cryptanalysis of Candidate Obfuscators for Affine Determinant Programs</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Li
+            Yao
+          , Yilei
+            Chen
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2021/1684" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Cryptanalysis%20of%20Candidate.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2021</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CRYPTO 2021</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2020/870" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Smoothing Out Binary Linear Codes and Worst-case Sub-exponential Hardness for LPN</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yu
+            Yu
+          , and Jiang
+            Zhang
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2020/870" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Smoothing%20Out%20Binary.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CRYPTO 2021</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2020/161" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Pushing the Limits of Valiant’s Universal Circuits: Simpler, Tighter and More Compact</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Hanlin
+            Liu
+          , Yu
+            Yu
+          , Shuoyao
+            Zhao
+          , Jiang
+            Zhang
+          , Wenling
+            Liu
+          , and Zhenkai
+            Hu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2020/161" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Pushing%20the%20Limits%20of%20Valiant%E2%80%99s%20Universal%20Circuits.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">TCHES 2021</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="tches-2021-31289" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Learning Parity with Physical Noise: Imperfections, Reductions and FPGA Prototype</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Davide
+            Bellizia
+          , Clément
+            Hoffmann
+          , Dina
+            Kamel
+          , Hanlin
+            Liu
+          , Pierrick
+            Méaux
+          , François-Xavier
+            Standaert
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>IACR Transactions on Cryptographic Hardware and Embedded Systems</em>,  May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://tches.iacr.org/index.php/TCHES/article/view/8979" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Learning%20Parity%20with%20Physical%20Noise.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">tches-2021-31289</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Learning Parity with Physical Noise: Imperfections, Reductions and FPGA Prototype}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IACR Transactions on Cryptographic Hardware and Embedded Systems}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Ruhr-Universität Bochum}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{2021, Issue 3}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{390-417}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://tches.iacr.org/index.php/TCHES/article/view/8979}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.46586/tches.v2021.i3.390-417}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bellizia, Davide and Hoffmann, Clément and Kamel, Dina and Liu, Hanlin and Méaux, Pierrick and Standaert, François-Xavier and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">NPJ Quantum Information</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="wang2021experimental" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Experimental authentication of quantum key distribution with post-quantum cryptography</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Liu-Jun
+            Wang
+          , Kai-Yi
+            Zhang
+          , Jia-Yong
+            Wang
+          , Jie
+            Cheng
+          , Yong-Hua
+            Yang
+          , Shi-Biao
+            Tang
+          , Di
+            Yan
+          , Yan-Lin
+            Tang
+          , Zhen
+            Liu
+          , Yu
+            Yu
+          , and 
+            others
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>npj quantum information</em>,  May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://arxiv.org/abs/2009.04662" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Experimental%20Authentication%20of%20Quantum%20Key.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">wang2021experimental</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Experimental authentication of quantum key distribution with post-quantum cryptography}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wang, Liu-Jun and Zhang, Kai-Yi and Wang, Jia-Yong and Cheng, Jie and Yang, Yong-Hua and Tang, Shi-Biao and Yan, Di and Tang, Yan-Lin and Liu, Zhen and Yu, Yu and others}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{npj quantum information}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{7}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{67}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Nature Publishing Group UK London}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ESORICS 2021</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-3-030-88428-4_17" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">MPC-in-Multi-Heads: A Multi-Prover Zero-Knowledge Proof System: (or: How to Jointly Prove Any NP Statements in ZK)</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Hongrui
+            Cui
+          , Kaiyi
+            Zhang
+          , Yu
+            Chen
+          , Zhen
+            Liu
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Computer Security – ESORICS 2021: 26th European Symposium on Research in Computer Security, Darmstadt, Germany, October 4–8, 2021, Proceedings, Part II</em> ,  May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://doi.org/10.1007/978-3-030-88428-4_17" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>With the rapid development of distributed computing, the traditional zero-knowledge proofs (ZKP) are becoming less adequate for privacy-preserving applications in the distributed setting. Take “double financing” as an example: multiple financial providers jointly prove that the sum of their committed values is no more than a given threshold, which generalizes the “range proof” to the multiple-prover setting. Therefore, traditional zero-knowledge proof does not seemingly lend itself to this problem on its own.   We identify and fill this gap by formalizing the ZKP system in the multi-prover setting (MPZK) that proves arbitrary NP statements with distributed witnesses. Our MPZK system offers zero-knowledge as long as one prover is honest (while others can collude arbitrarily), and thus is applicable to “double financing”, “credit checking”, and various other multi-prover applications. We then propose a generic black-box construction from multiparty computation, referred to as “MPC-in-Multi-Heads”, and prove its security under the simulation-based paradigm. We also offer a proof-of-concept implementation and present its experimental results.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1007/978-3-030-88428-4_17</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cui, Hongrui and Zhang, Kaiyi and Chen, Yu and Liu, Zhen and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{MPC-in-Multi-Heads: A Multi-Prover Zero-Knowledge Proof System: (or: How to Jointly Prove Any NP Statements in ZK)}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-3-030-88427-7}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer-Verlag}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Berlin, Heidelberg}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1007/978-3-030-88428-4_17}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/978-3-030-88428-4_17}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Computer Security – ESORICS 2021: 26th European Symposium on Research in Computer Security, Darmstadt, Germany, October 4–8, 2021, Proceedings, Part II}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{332–351}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{20}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Darmstadt, Germany}</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+      <!-- Hidden video block -->
+      <div class="abstract hidden">
+        <div style="text-align: center;">
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/watch?v=h7YWLVfsRUI" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+</div>
+      </div>
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2020</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ASIACRYPT 2020</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2020/1103" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Packed Multiplication: How to Amortize the Cost of Side-channel Masking ?</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Weijia
+            Wang
+          , Chun
+            Guo
+          , François-Xavier
+            Standaert
+          , Yu
+            Yu
+          , and Gaëtan
+            Cassiers
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      \urlhttps://eprint.iacr.org/2020/1103
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://eprint.iacr.org/2020/1103" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Packed%20Multiplication.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">cryptoeprint:2020/1103</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wang, Weijia and Guo, Chun and Standaert, François-Xavier and Yu, Yu and Cassiers, Gaëtan}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Packed Multiplication: How to Amortize the Cost of Side-channel Masking ?}</span><span class="p">,</span>
+  <span class="na">howpublished</span> <span class="p">=</span> <span class="s">{Cryptology ePrint Archive, Paper 2020/1103}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">note</span> <span class="p">=</span> <span class="s">{\url{https://eprint.iacr.org/2020/1103}}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://eprint.iacr.org/2020/1103}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ESORICS 2020</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="liu2020lattice" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">A lattice-based key-insulated and privacy-preserving signature scheme with publicly derived public key</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Wenling
+            Liu
+          , Zhen
+            Liu
+          , Khoa
+            Nguyen
+          , Guomin
+            Yang
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In European Symposium on Research in Computer Security</em> ,  May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://link.springer.com/book/10.1007/978-3-030-58951-6" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">liu2020lattice</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{A lattice-based key-insulated and privacy-preserving signature scheme with publicly derived public key}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Wenling and Liu, Zhen and Nguyen, Khoa and Yang, Guomin and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{European Symposium on Research in Computer Security}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{357--377}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">organization</span> <span class="p">=</span> <span class="s">{Springer}</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+      <!-- Hidden video block -->
+      <div class="abstract hidden">
+        <div style="text-align: center;">
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/watch?v=oEIpFAR3Zz4" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+</div>
+      </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">PKC 2020</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2019/510" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Tweaking the Asymmetry of Asymmetric-Key Cryptography on Lattices: KEMs and Signatures of Smaller Sizes</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Jiang
+            Zhang
+          , Yu
+            Yu
+          , Shuqin
+            Fan
+          , Zhenfeng
+            Zhang
+          , and Kang
+            Yang
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2019/510" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Tweaking%20the%20Asymmetry%20of%20Asymmetric-Key.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CRYPTO 2020</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2019/1168" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Better Concrete Security for Half-Gates Garbling (in the Multi-Instance Setting)</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Chun
+            Guo
+          , Jonathan
+            Katz
+          , Xiao
+            Wang
+          , Chenkai
+            Weng
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2019/1168" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Better%20Concrete%20Security%20for%20Half-Gates%20Garbling.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CCS 2020</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cispa3105" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">LEAF: A Faster Secure Search Algorithm via Localization, Extraction, and Reconstruction</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Rui
+            Wen
+          , Yu
+            Yu
+          , Xiang
+            Xie
+          , and Yang
+            Zhang
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In ACM SIGSAC Conference on Computer and Communications Security</em> ,  May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://publications.cispa.saarland/3105/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/LEAF.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">cispa3105</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wen, Rui and Yu, Yu and Xie, Xiang and Zhang, Yang}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{LEAF: A Faster Secure Search Algorithm via Localization, Extraction, and Reconstruction}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{ACM SIGSAC Conference on Computer and Communications Security}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://publications.cispa.saarland/3105/}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">S&amp;P 2020</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2019/074" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Efficient and Secure Multiparty Computation from Fixed-Key Block Ciphers</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Chun
+            Guo
+          , Jonathan
+            Katz
+          , Xiao
+            Wang
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2019/074" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Efficient%20and%20Secure%20Multiparty.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ToSC/FSE 2020</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2019/1424" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Efficient Side-Channel Secure Message Authentication with Better Bounds</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Chun
+            Guo
+          , François-Xavier
+            Standaert
+          , Weijia
+            Wang
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      \urlhttps://eprint.iacr.org/2019/1424
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2019/1424" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Efficient%20Side-Channel%20Secure.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2019</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ESORICS (1) 2019</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-3-030-29959-0_35" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">A Lattice-Based Linkable Ring Signature Supporting Stealth Addresses</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Zhen
+            Liu
+          , Khoa
+            Nguyen
+          , Guomin
+            Yang
+          , Huaxiong
+            Wang
+          , and Duncan S.
+            Wong
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Computer Security – ESORICS 2019</em> ,  May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>First proposed in CryptoNote, a collection of popular privacy-centric cryptocurrencies have employed Linkable Ring Signature and a corresponding Key Derivation Mechanism (KeyDerM) for keeping the payer and payee of a transaction anonymous and unlinkable. The KeyDerM is used for generating a fresh signing key and the corresponding public key, referred to as a stealth address, for the transaction payee. The stealth address will then be used in the linkable ring signature next time when the payee spends the coin. However, in all existing works, including Monero, the privacy model only considers the two cryptographic primitives separately. In addition, to be applied to cryptocurrencies, the security and privacy models for Linkable Ring Signature should capture the situation that the public key ring of a signature may contain keys created by an adversary (referred to as adversarially-chosen-key attack), since in cryptocurrencies, it is normal for a user (adversary) to create self-paying transactions so that some maliciously created public keys can get into the system without being detected .</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1007/978-3-030-29959-0_35</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Zhen and Nguyen, Khoa and Yang, Guomin and Wang, Huaxiong and Wong, Duncan S.}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Sako, Kazue and Schneider, Steve and Ryan, Peter Y. A.}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{A Lattice-Based Linkable Ring Signature Supporting Stealth Addresses}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Computer Security -- ESORICS 2019}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer International Publishing}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Cham}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{726--746}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-3-030-29959-0}</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ASIACRYPT 2019</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2017/1260" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Collision Resistant Hashing from Sub-exponential Learning Parity with Noise</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yu
+            Yu
+          , Jiang
+            Zhang
+          , Jian
+            Weng
+          , Chun
+            Guo
+          , and Xiangxue
+            Li
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2017/1260" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Collision%20Resistant%20Hashing%20from%20Sub-exponential%20Learning.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ASIACRYPT 2019</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2018/943" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Valiant’s Universal Circuits Revisited: an Overall Improvement and a Lower Bound</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Shuoyao
+            Zhao
+          , Yu
+            Yu
+          , Jiang
+            Zhang
+          , and Hanlin
+            Liu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+        
+          <a href="https://eprint.iacr.org/2018/943" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Valiant%E2%80%99s%20Universal%20Circuits%20Revisited.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ACISP 2018</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="zhang2019z" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Z-channel: Scalable and efficient scheme in zerocash</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yuncong
+            Zhang
+          , Yu
+            Long
+          , Zhen
+            Liu
+          , Zhiqiang
+            Liu
+          , and Dawu
+            Gu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>Computers &amp; Security</em>,  May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+      
+        
+          <a href="/assets/pdf/Z-Channel.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">zhang2019z</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Z-channel: Scalable and efficient scheme in zerocash}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhang, Yuncong and Long, Yu and Liu, Zhen and Liu, Zhiqiang and Gu, Dawu}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Computers \&amp; Security}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{86}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{112--131}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">Inscrypt 2018</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="wan2019goshawk" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Goshawk: a novel efficient, robust and flexible blockchain protocol</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Cencen
+            Wan
+          , Shuyang
+            Tang
+          , Yuncong
+            Zhang
+          , Chen
+            Pan
+          , Zhiqiang
+            Liu
+          , Yu
+            Long
+          , Zhen
+            Liu
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Information Security and Cryptology: 14th International Conference, Inscrypt 2018, Fuzhou, China, December 14-17, 2018, Revised Selected Papers 14</em> ,  May
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+      
+        
+          <a href="/assets/pdf/Goshawk.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">wan2019goshawk</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Goshawk: a novel efficient, robust and flexible blockchain protocol}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wan, Cencen and Tang, Shuyang and Zhang, Yuncong and Pan, Chen and Liu, Zhiqiang and Long, Yu and Liu, Zhen and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Information Security and Cryptology: 14th International Conference, Inscrypt 2018, Fuzhou, China, December 14-17, 2018, Revised Selected Papers 14}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{49--69}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">organization</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">IEEE TIFS2019</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1109/TIFS.2019.2912549" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Provable Order Amplification for Code-Based Masking: How to Avoid Non-Linear Leakages Due to Masked Operations</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Weijia
+            Wang
+          , 
+            Yu
+          , and Francois-Xavier
+            Standaert
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>Trans. Info. For. Sec.</em>,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://doi.org/10.1109/TIFS.2019.2912549" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Code-based masking schemes have been shown to provide higher theoretical security guarantees than Boolean masking. In particular, one interesting feature put forward at CARDIS 2016 and then analyzed at CARDIS 2017 was the so-called security order amplification: under the assumption that the leakage function is linear, it guarantees that an implementation performing only linear operations will have a security order in the bounded moment leakage model larger than  d-1 , where  d  is the number of shares. The main question regarding this feature is its practical relevance. First of all, concrete block ciphers do not only perform linear operations. Second, it may be that actual leakage functions are not perfectly linear (raising questions regarding what happens when one deviates from such assumptions). In this paper, we show that the issue of only linear operations can be provably avoided and that it is possible to obtain security order amplification for any functionality to implement. We then show that (not so) slightly non-linear leakage functions do not annihilate the nice properties (i.e., that the code-based schemes we consider remain interesting compared to the Boolean masking). We conclude with a performance evaluation of the proposals, showing that the performance overheads are moderate for a reasonable number of shares (we studied when the number of the shares  d=2,3,4 ). In additiona, our results could be specified to the case of provable security for low entropy masking, which can be considered as a side bonus of our contributions. We give some preliminary results on how to construct the low entropy masking schemes with provable high security order against linear leakage.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">10.1109/TIFS.2019.2912549</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wang, Weijia and Yu and Standaert, Francois-Xavier}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Provable Order Amplification for Code-Based Masking: How to Avoid Non-Linear Leakages Due to Masked Operations}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">issue_date</span> <span class="p">=</span> <span class="s">{November 2019}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE Press}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{14}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">issn</span> <span class="p">=</span> <span class="s">{1556-6013}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1109/TIFS.2019.2912549}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TIFS.2019.2912549}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Trans. Info. For. Sec.}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{3069–3082}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{14}</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2018</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">Defcon China 2018</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1145/3212480.3212496" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Passwords in the Air: Harvesting Wi-Fi Credentials from SmartCfg Provisioning</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Changyu
+            Li
+          , Quanpu
+            Cai
+          , Juanru
+            Li
+          , Hui
+            Liu
+          , Yuanyuan
+            Zhang
+          , Dawu
+            Gu
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Proceedings of the 11th ACM Conference on Security &amp; Privacy in Wireless and Mobile Networks</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://doi.org/10.1145/3212480.3212496" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Smart devices without an interactive UI (e.g., a smart bulb) typically rely on specific provisioning schemes to connect to wireless networks. Among all the provisioning schemes, SmartCfg is a popular technology to configure the connection between smart devices and wireless routers. Although the SmartCfg technology facilitates the Wi-Fi configuration, existing solutions seldom take into serious consideration the protection of credentials and therefore introduce security threats against Wi-Fi credentials.This paper conducts a security analysis against eight SmartCfg based Wi-Fi provisioning solutions designed by different wireless module manufacturers. Our analysis demonstrates that six manufacturers provide flawed SmartCfg implementations that directly lead to the exposure of Wi-Fi credentials: attackers could exploit these flaws to obtain important credentials without any substantial efforts on brute-force password cracking. Furthermore, we keep track of the smart devices that adopt such Wi-Fi provisioning solutions to investigate the influence of the security flaws on real world products. Through reversely analyzing the corresponding apps of those smart devices we conclude that the flawed SmartCfg implementations constitute a wide potential impact on the security of smart home ecosystems.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1145/3212480.3212496</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Li, Changyu and Cai, Quanpu and Li, Juanru and Liu, Hui and Zhang, Yuanyuan and Gu, Dawu and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Passwords in the Air: Harvesting Wi-Fi Credentials from SmartCfg Provisioning}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{9781450357319}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3212480.3212496}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3212480.3212496}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 11th ACM Conference on Security \&amp; Privacy in Wireless and Mobile Networks}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1–11}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Smart devices, Wi-Fi provisioning}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Stockholm, Sweden}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{WiSec '18}</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CNS 2018</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="8433150" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Dynamic Practical Byzantine Fault Tolerance</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Xu
+            Hao
+          , Long
+            Yu
+          , Liu
+            Zhiqiang
+          , Liu
+            Zhen
+          , and Gu
+            Dawu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In 2018 IEEE Conference on Communications and Network Security (CNS)</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://ieeexplore.ieee.org/document/8433150" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">8433150</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hao, Xu and Yu, Long and Zhiqiang, Liu and Zhen, Liu and Dawu, Gu}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{2018 IEEE Conference on Communications and Network Security (CNS)}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Dynamic Practical Byzantine Fault Tolerance}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-8}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Protocols;Security;Conferences;Communication networks;Computer crashes;Fault tolerance;Fault tolerant systems}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/CNS.2018.8433150}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">NSS 2018</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-3-030-02744-5_1" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Secure Scheme Against Compromised Hash in Proof-of-Work Blockchain</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Fengjun
+            Chen
+          , Zhiqiang
+            Liu
+          , Yu
+            Long
+          , Zhen
+            Liu
+          , and Ning
+            Ding
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Network and System Security</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://link.springer.com/chapter/10.1007/978-3-030-02744-5_1" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Blockchain is built on the basis of peer-to-peer network, cryptography and consensus mechanism over a distributed environment. The underlying cryptography in blockchain, such as hash algorithm and digital signature scheme, is used to guarantee the security of blockchain. However, past experience showed that cryptographic primitives do not last forever along with increasing computational power and advanced cryptanalysis. Therefore, it is crucial to investigate the issue that the underlying cryptography in blockchain is compromised.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1007/978-3-030-02744-5_1</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Chen, Fengjun and Liu, Zhiqiang and Long, Yu and Liu, Zhen and Ding, Ning}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Au, Man Ho and Yiu, Siu Ming and Li, Jin and Luo, Xiapu and Wang, Cong and Castiglione, Aniello and Kluczniak, Kamil}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Secure Scheme Against Compromised Hash in Proof-of-Work Blockchain}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Network and System Security}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer International Publishing}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Cham}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--15}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-3-030-02744-5}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2017</h2>
+<ol class="bibliography"><li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ASIACRYPT 2017</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2017/838" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Two-Round PAKE from Approximate SPH and Instantiations from Lattices</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Jiang
+            Zhang
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://eprint.iacr.org/2017/838" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Two-Round%20PAKE.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">cryptoeprint:2017/838</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhang, Jiang and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Two-Round PAKE from Approximate SPH and Instantiations from Lattices}</span><span class="p">,</span>
+  <span class="na">howpublished</span> <span class="p">=</span> <span class="s">{Cryptology ePrint Archive, Paper 2017/838}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://eprint.iacr.org/2017/838}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li></ol>
+<h2 class="bibliography">2016</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CRYPTO 2016</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="cryptoeprint:2016/514" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Cryptography with Auxiliary Input and Trapdoor from Constant-Noise LPN</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yu
+            Yu
+          , and Jiang
+            Zhang
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://eprint.iacr.org/2016/514" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Cryptography%20with%20Auxiliary%20Input.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">cryptoeprint:2016/514</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yu, Yu and Zhang, Jiang}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Cryptography with Auxiliary Input and Trapdoor from Constant-Noise LPN}</span><span class="p">,</span>
+  <span class="na">howpublished</span> <span class="p">=</span> <span class="s">{Cryptology ePrint Archive, Paper 2016/514}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://eprint.iacr.org/2016/514}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">EUROCRYPT 2016</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.5555/3081738.3081744" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Pseudorandom Functions in Almost Constant Depth from Low-Noise LPN</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yu
+            Yu
+          , and John
+            Steinberger
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Proceedings, Part II, of the 35th Annual International Conference on Advances in Cryptology — EUROCRYPT 2016 - Volume 9666</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+      
+        
+          <a href="/assets/pdf/Pseudorandom%20Functions.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Pseudorandom functions PRFs play a central role in symmetric cryptography. While in principle they can be built from any one-way functions by going through the generic HILL SICOMP 1999 and GGM JACM 1986 transforms, some of these steps are inherently sequential and far from practical. Naor, Reingold FOCS 1997 and Rosen SICOMP 2002 gave parallelizable constructions of PRFs in NC$^22 and TC^00 based on concrete number-theoretic assumptions such as DDH, RSA, and factoring. Banerjee, Peikert, and Rosen Eurocrypt 2012 constructed relatively more efficient PRFs in NC^11 and TC^00 based on "learning with errors" LWE for certain range of parameters. It remains an open problem whether parallelizable PRFs can be based on the "learning parity with noise" LPN problem for both theoretical interests and efficiency reasons as the many modular multiplications and additions in LWE would then be simplified to AND and XOR operations under LPN.In this paper, we give more efficient and parallelizable constructions of randomized PRFs from LPN under noise rate n^-cn-c for any constant 0 Furthermore, our constructions are security-lifting by exploiting the redundancy of low-noise LPN. We show that in addition to parallelizability in almost constant depth the PRF enjoys either of or any tradeoff between the following:A PRF on a weak key of sublinear entropy or equivalently, a uniform key that leaks any 1 - o11-o1-fraction has comparable security to the underlying LPN on a linear size secret.A PRF with key length lambda λ can have security upı̈ źto 2^Olambda /log lambda $2Oλ/logλ, which goes much beyond the security level of the underlying low-noise LPN. where adversary makes upı̈ źto certain super-polynomial amount of queries.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.5555/3081738.3081744</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yu, Yu and Steinberger, John}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Pseudorandom Functions in Almost Constant Depth from Low-Noise LPN}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{9783662498958}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer-Verlag}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Berlin, Heidelberg}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings, Part II, of the 35th Annual International Conference on Advances in Cryptology --- EUROCRYPT 2016 - Volume 9666}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{154–183}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{30}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+      <!-- Hidden video block -->
+      <div class="abstract hidden">
+        <div style="text-align: center;">
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/watch?v=26cM544KB28" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+</div>
+      </div>
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2015</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CRYPTO 2015</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-3-662-48000-7_11" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">(Almost) Optimal Constructions of UOWHFs from 1-to-1, Regular One-Way Functions and Beyond</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yu
+            Yu
+          , Dawu
+            Gu
+          , Xiangxue
+            Li
+          , and Jian
+            Weng
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Advances in Cryptology – CRYPTO 2015</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+        
+          <a href="https://doi.org/10.1007/978-3-662-48000-7_11" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/%20Optimal%20Constructions.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>We revisit the problem of black-box constructions of universal one-way hash functions (UOWHFs) from several typical classes of one-way functions (OWFs), and give respective constructions that either improve or generalize the best previously known.
+
+For any 1-to-1 one-way function, we give an optimal construction of UOWHFs with key and output length $varTheta (n) by making a single call to the underlying OWF. This improves the constructions of Naor and Yung (STOC 1989) and De Santis and Yung (Eurocrypt 1990) that need key length O(ncdot omega (log n)).
+
+For any known-(almost-)regular one-way function with known hardness, we give an optimal construction of UOWHFs with key and output length varTheta (n) and a single call to the one-way function.
+
+For any known-(almost-)regular one-way function, we give a construction of UOWHFs with key and output length O(ncdot omega (1)) and by making omega (1) non-adaptive calls to the one-way function. This improves the construction of Barhum and Maurer (Latincrypt 2012) that requires key and output length O(ncdot omega (log n)) and omega (log n) calls.
+
+For any weakly-regular one-way function introduced by Yu et al. at TCC 2015 (i.e., the set of inputs with maximal number of siblings is of an n^-c-fraction for some constant c), we give a construction of UOWHFs with key length O(ncdot log n) and output length varTheta (n). This generalizes the construction of Ames et al. (Asiacrypt 2012) which requires an unknown-regular one-way function (i.e., c=0$).
+
+Along the way, we use several techniques that might be of independent interest. We show that almost 1-to-1 (except for a negligible fraction) one-way functions and known (almost-)regular one-way functions are equivalent in the known-hardness (or non-uniform) setting, by giving an optimal construction of the former from the latter. In addition, we show how to transform any one-way function that is far from regular (but only weakly regular on a noticeable fraction of domain) into an almost-regular one-way function.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">TCC 2015</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-3-662-46494-6_2" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">The Randomized Iterate, Revisited - Almost Linear Seed Length PRGs from a Broader Class of One-Way Functions</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yu
+            Yu
+          , Dawu
+            Gu
+          , Xiangxue
+            Li
+          , and Jian
+            Weng
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Theory of Cryptography</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://link.springer.com/chapter/10.1007/978-3-662-46494-6_2" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/The%20Randomized%20Iterate%20Revisited.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>We revisit “the randomized iterate” technique that was originally used by Goldreich, Krawczyk, and Luby (SICOMP 1993) and refined by Haitner, Harnik and Reingold (CRYPTO 2006) in constructing pseudorandom generators (PRGs) from regular one-way functions (OWFs). We abstract out a technical lemma (which is folklore in leakage resilient cryptography), and use it to provide a simpler and more modular proof for the Haitner-Harnik-Reingold PRGs from regular OWFs.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1007/978-3-662-46494-6_2</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yu, Yu and Gu, Dawu and Li, Xiangxue and Weng, Jian}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Dodis, Yevgeniy and Nielsen, Jesper Buus}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{The Randomized Iterate, Revisited - Almost Linear Seed Length PRGs from a Broader Class of One-Way Functions}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Theory of Cryptography}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2015}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer Berlin Heidelberg}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Berlin, Heidelberg}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{7--35}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-3-662-46494-6}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2013</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ASIACRYPT 2013</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-3-642-42045-0_14" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Pseudorandom Generators from Regular One-Way Functions: New Constructions with Improved Parameters</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yu
+            Yu
+          , Xiangxue
+            Li
+          , and Jian
+            Weng
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Advances in Cryptology - ASIACRYPT 2013</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://link.springer.com/chapter/10.1007/978-3-642-42045-0_14" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Pseudorandom%20Generators.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>We revisit the problem of basing pseudorandom generators on regular one-way functions, and present the following constructions:</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1007/978-3-642-42045-0_14</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yu, Yu and Li, Xiangxue and Weng, Jian}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Sako, Kazue and Sarkar, Palash}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Pseudorandom Generators from Regular One-Way Functions: New Constructions with Improved Parameters}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Advances in Cryptology - ASIACRYPT 2013}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer Berlin Heidelberg}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Berlin, Heidelberg}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{261--279}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-3-642-42045-0}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CRYPTO 2013</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-3-642-40041-4_19" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Leakage-Resilient Symmetric Cryptography under Empirically Verifiable Assumptions</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      François-Xavier
+            Standaert
+          , Olivier
+            Pereira
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Advances in Cryptology – CRYPTO 2013</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://link.springer.com/chapter/10.1007/978-3-642-40041-4_19" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Leakage-Resilient%20Symmetric.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Leakage-resilient cryptography aims at formally proving the security of cryptographic implementations against large classes of side-channel adversaries. One important challenge for such an approach to be relevant is to adequately connect the formal models used in the proofs with the practice of side-channel attacks. It raises the fundamental problem of finding reasonable restrictions of the leakage functions that can be empirically verified by evaluation laboratories. In this paper, we first argue that the previous “bounded leakage” requirements used in leakage-resilient cryptography are hard to fulfill by hardware engineers. We then introduce a new, more realistic and empirically verifiable assumption of simulatable leakage, under which security proofs in the standard model can be obtained. We finally illustrate our claims by analyzing the physical security of an efficient pseudorandom generator (for which security could only be proven under a random oracle based assumption so far). These positive results come at the cost of (algorithm-level) specialization, as our new assumption is specifically defined for block ciphers. Nevertheless, since block ciphers are the main building block of many leakage-resilient cryptographic primitives, our results also open the way towards more realistic constructions and proofs for other pseudorandom objects.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1007/978-3-642-40041-4_19</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Standaert, Fran{\c{c}}ois-Xavier and Pereira, Olivier and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Canetti, Ran and Garay, Juan A.}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Leakage-Resilient Symmetric Cryptography under Empirically Verifiable Assumptions}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Advances in Cryptology -- CRYPTO 2013}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer Berlin Heidelberg}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Berlin, Heidelberg}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{335--352}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-3-642-40041-4}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+      <!-- Hidden video block -->
+      <div class="abstract hidden">
+        <div style="text-align: center;">
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/watch?v=drucH6HR_bY" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+</div>
+      </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">TCC 2013</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-3-642-36594-2_1" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Overcoming Weak Expectations</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yevgeniy
+            Dodis
+          , and Yu
+            Yu
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Theory of Cryptography</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://link.springer.com/chapter/10.1007/978-3-642-36594-2_1" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/Overcoming%20Weak%20Expectations.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Recently, there has been renewed interest in basing cryptographic primitives on weak secrets, where the only information about the secret is some non-trivial amount of (min-) entropy. From a formal point of view, such results require to upper bound the expectation of some function f(X), where X is a weak source in question. We show an elementary inequality which essentially upper bounds such ‘weak expectation’ by two terms, the first of which is independent of f, while the second only depends on the ‘variance’ of f under uniform distribution. Quite remarkably, as relatively simple corollaries of this elementary inequality, we obtain some ‘unexpected’ results, in several cases noticeably simplifying/improving prior techniques for the same problem.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1007/978-3-642-36594-2_1</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Dodis, Yevgeniy and Yu, Yu}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Sahai, Amit}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Overcoming Weak Expectations}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Theory of Cryptography}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer Berlin Heidelberg}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Berlin, Heidelberg}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--22}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-3-642-36594-2}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">CT-RSA 2013</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-3-642-36095-4_15" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Practical Leakage-Resilient Pseudorandom Objects with Minimum Public Randomness</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yu
+            Yu
+          , and François-Xavier
+            Standaert
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Topics in Cryptology – CT-RSA 2013</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://link.springer.com/chapter/10.1007/978-3-642-36095-4_15" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>One of the main challenges in leakage-resilient cryptography is to obtain proofs of security against side-channel attacks, under realistic assumptions and for efficient constructions. In a recent work from CHES 2012, Faust et al. proposed new designs of stream ciphers and pseudorandom functions for this purpose. Yet, a remaining limitation of these constructions is that they require large amounts of public randomness to be proven leakage-resilient. In this paper, we show that tweaked designs with minimum randomness requirements can be proven leakage-resilient in minicrypt. That is, either these constructions are secure, or we are able to construct public-key cryptographic primitives from symmetric-key building blocks and their leakage functions (which is very unlikely). Hence, our results improve the practical relevance of two important leakage-resilient pseudorandom objects.</p>
+      </div>
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1007/978-3-642-36095-4_15</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yu, Yu and Standaert, Fran{\c{c}}ois-Xavier}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Dawson, Ed}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Practical Leakage-Resilient Pseudorandom Objects with Minimum Public Randomness}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Topics in Cryptology -- CT-RSA 2013}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer Berlin Heidelberg}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{Berlin, Heidelberg}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{223--238}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-3-642-36095-4}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+<h2 class="bibliography">2012</h2>
+<ol class="bibliography"><li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">ITW 2012</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="6404713" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Two-source extractors for leaky sources</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yu
+            Yu
+          , Xiangxue
+            Li
+          , and Haifeng
+            Qian
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In 2012 IEEE Information Theory Workshop</em> ,  Nov
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+        
+          <a href="https://ieeexplore.ieee.org/document/6404713" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">6404713</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yu, Yu and Li, Xiangxue and Qian, Haifeng}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{2012 IEEE Information Theory Workshop}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Two-source extractors for leaky sources}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2012}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{452-456}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Entropy;Data mining;Cryptography;Helium;Computer science;Information theory;Conferences}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/ITW.2012.6404713}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li></ol>
+
+</div>
+
+  </article>
+
+  
+
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      © 2019 沪交ICP备20180081
+      
+      
+      . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="/assets/js/mdb.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+<!-- Bootstrap Table -->
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?5d75c11f89cd96294bf5e6dd1ee1bb30"></script>
+<script defer src="/assets/js/common.js?fcfacfb8c6281f5e68d5a7d348186eb1"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+    
+  <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams',
+      },
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+
+
+    
+
+
+    
+  <!-- Scrolling Progress Bar -->
+  <script type="text/javascript">
+    /*
+     * This JavaScript code has been adapted from the article
+     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
+     * published on the website https://css-tricks.com on the 7th of May, 2014.
+     * Couple of changes were made to the original code to make it compatible
+     * with the `al-foio` theme.
+     */
+    const progressBar = $('#progress');
+    /*
+     * We set up the bar after all elements are done loading.
+     * In some cases, if the images in the page are larger than the intended
+     * size they'll have on the page, they'll be resized via CSS to accomodate
+     * the desired size. This mistake, however, breaks the computations as the
+     * scroll size is computed as soon as the elements finish loading.
+     * To account for this, a minimal delay was introduced before computing the
+     * values.
+     */
+    window.onload = function () {
+      setTimeout(progressBarSetup, 50);
+    };
+    /*
+     * We set up the bar according to the browser.
+     * If the browser supports the progress element we use that.
+     * Otherwise, we resize the bar thru CSS styling
+     */
+    function progressBarSetup() {
+      if ('max' in document.createElement('progress')) {
+        initializeProgressElement();
+        $(document).on('scroll', function () {
+          progressBar.attr({ value: getCurrentScrollPosition() });
+        });
+        $(window).on('resize', initializeProgressElement);
+      } else {
+        resizeProgressBar();
+        $(document).on('scroll', resizeProgressBar);
+        $(window).on('resize', resizeProgressBar);
+      }
+    }
+    /*
+     * The vertical scroll position is the same as the number of pixels that
+     * are hidden from view above the scrollable area. Thus, a value > 0 is
+     * how much the user has scrolled from the top
+     */
+    function getCurrentScrollPosition() {
+      return $(window).scrollTop();
+    }
+
+    function initializeProgressElement() {
+      let navbarHeight = $('#navbar').outerHeight(true);
+      $('body').css({ 'padding-top': navbarHeight });
+      $('progress-container').css({ 'padding-top': navbarHeight });
+      progressBar.css({ top: navbarHeight });
+      progressBar.attr({
+        max: getDistanceToScroll(),
+        value: getCurrentScrollPosition(),
+      });
+    }
+    /*
+     * The offset between the html document height and the browser viewport
+     * height will be greater than zero if vertical scroll is possible.
+     * This is the distance the user can scroll
+     */
+    function getDistanceToScroll() {
+      return $(document).height() - $(window).height();
+    }
+
+    function resizeProgressBar() {
+      progressBar.css({ width: getWidthPercentage() + '%' });
+    }
+    // The scroll ratio equals the percentage to resize the bar
+    function getWidthPercentage() {
+      return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+    }
+  </script>
+
+
+    
+
+    
+
+  </body>
+</html>
